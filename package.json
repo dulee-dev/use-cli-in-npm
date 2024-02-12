@@ -1,0 +1,30 @@
+{
+  "name": "make-custom-cli-with-commanderjs",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "tsc"
+  },
+  "bin": {
+    "bin": "./bin/bin.js",
+    "chalk": "./bin/chalk.js",
+    "commander": "./bin/commander.js",
+    "inquirer": "./bin/inquirer.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/inquirer": "^9.0.7",
+    "chalk": "4.1.2",
+    "commander": "^12.0.0",
+    "inquirer": "^8.2.6"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "eslint": "^8.56.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
